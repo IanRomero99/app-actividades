@@ -10,12 +10,23 @@ body {
     background-color: #111419;
 }
 
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-publicar {
+    align-items: center;
+}
+
 main {
     padding-left: 5%;
     padding-right: 40%;
     color: white;
     font-size: 1.5em;
     font-family: 'Quicksand', sans-serif;
+    background-color: wh;
 }
 
 main h1 {
@@ -29,6 +40,12 @@ main p {
 strong {
     color: #ffffff;
     font-family: 'Homemade Apple', cursive;
+}
+
+.btn-sample {
+    color: #FFFAFA;
+    background-color: #EB12E0;
+    border-color: #130269;
 }
 
 @media screen and (max-width: 800px) {
